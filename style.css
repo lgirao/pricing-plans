@@ -25,9 +25,11 @@ section {
 }
 section:nth-of-type(1) {
     border-radius: 8px 8px 0px 0px;
+    border-bottom: none;
 }
 section:last-of-type {
     border-radius: 0px 0px 8px 8px;
+    border-top: none;
 }
 
 .card {
@@ -84,7 +86,6 @@ h3.title {
     font-size: 3rem;
     font-weight: 700;
 }
-
 .price-top {
     margin-bottom: 0;
 }
@@ -158,9 +159,11 @@ hr {
     }
     section:nth-of-type(1) {
         border-radius: 8px 0px 0px 8px;
+        border-right: none;
     }
     section:last-of-type {
         border-radius: 0px 8px 8px 0px;
+        border-left: none;
     }
 }
 
